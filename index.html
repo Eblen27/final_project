@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Home Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div class="followers"><img class="instagram1" src="/images/instagram.png"><span>316k followers</span></div>
+            <div id="slogan">Sustainable Home Product Alternatives</div>
+            <div class="myaccount">
+              <a href="#">My Account</a>
+            </div>
+            
+            
+        </header>
+        <main>
+            <nav>
+              <div class= "title"><a href="#">Green Home Box</a></div>
+                <div class="dropdown">
+                  <div class="dropbtn">
+                    <p>Bathroom</p>
+                    <div class="dropdown-content">
+                      <a href="#">Mouthwash</a>
+                      <a href="#">Shampoo & Conditioner</a>
+                      <a href="#">Soaps</a>
+                      <a href="#">Toothbrush</a>
+                      <a href='#'>Toothpaste</a>
+                    </div>   
+                  </div>
+                  <div class="dropbtn">
+                    <p>Cleaning</p>
+                    <div class="dropdown-content">
+                      <a href="#">Brushes</a>
+                      <a href="#">Dishwasher</a>
+                      <a href="#">Laundry</a>
+                      <a href="#">Soaps</a>
+                      <a href="#">Toilet</a>
+                    </div>
+                  </div>  
+                  <div class="dropbtn">
+                    <p>Kitchen</p>
+                    <div class="dropdown-content">
+                      <a href="#">Compost</a>
+                      <a href="#">Food Containers</a>
+                      <a href="#">Food Wraps</a>
+                      <a href="#">Utensils</a>
+                    </div>
+                  </div>  
+                  <div class="dropbtn">
+                    <p>Pet</p>
+                    <div class="dropdown-content">
+                      <a href="#">Bio Bags</a>
+                      <a href="#">Collars/Leashes</a>
+                      <a href="#">Toys</a>
+                      <a href="#">Treats</a>
+                    </div>
+                  </div>
+                  <div id="cart"><img src=images/supermarket.png><span>0 items - $0.00</span></div>
+                  <input type="text" name="search" placeholder= "Search">
+                </div>  
+                  
+            </nav>
+            <div class="sub-container1">
+              
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img class="featured" src="/images/dropps-laundry.jpg" alt="box of detergent">
+                      <div class="name">Dropps Laundry Detergent</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img class="featured" src="images/grin floss.jpeg" alt="floss picks container">
+                      <div class="name">Grin Floss Picks</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img class="featured" src="/images/ecover-dishwasher" alt="box of dishwasher tablets">
+                      <div class="name">Ecover Dishwasher Tablets</div>
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+            </div>
+            <div class="topsellers">
+                <div class="sub-container2">
+                    <h2>Top Sellers</h2>
+                    <div class="item">
+                        <div id="image1"></div>
+                        <div class="info">
+                            <div>Bite Toothpaste</div>
+                            <div>$65.00</div>
+                            <img class="stars" src="/images/rating.png" alt="five stars">
+                            <button>Add to Cart</button>
+                            
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div id="image2"></div>
+                        <div class="info">
+                            <div>Isshah Charcoal Bamboo Toothbrush</div>
+                            <div>$25.00</div>
+                            <img class="stars" src="/images/rating.png" alt="five stars">
+                            <button>Add to Cart</button>
+                            
+                        </div>    
+                    </div>
+    
+                    <div class="item">
+                        <div id="image3"></div>
+                        <div class="info">
+                            <div>Muli Reuseable Bamboo Cutlery</div>
+                            <div>$15.00</div>
+                            <img class="stars" src="/images/rating.png" alt="five stars">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+          <footer>
+                <div class="company">
+                  <h3>Green Home Box</h3>
+                  About Us
+                  <br>
+                  Careers
+                  <br>
+                  Privacy & Policy
+                  <br>
+                  Terms & Conditions
+                  <br>
+                  Contact Us
+                </div>
+                <div class="support">
+                  <h3>Help & Support</h3>
+                  FAQ Subscriptions
+                  <br>
+                  Delivery & Shipping
+                  <br>
+                  Refunds & Returns
+                  <br>
+                  Wholesale
+                  Covid-19 Update
+                </div>  
+                <div class="subscribe">
+                  <h3>Subscribe today! </h3>
+                  <input type="email" id="myEmail" value placeholder="Email">
+                  <p>Receive 15% off your purchase when you create an account</p>
+                  <button onclick="myFunction()">Join Green Home Box</button>
+                  <p id="demo"></p>
+                </div>
+                <div class="social">
+                  <a href="#"><img class="facebook" src="/images/facebook.png"></a>
+                  <a href="#"><img class="twitter" src="/images/twitter.png"></a>
+                  <a href="#"><img class="pinterest" src="/images/pinterest-social-logo.png"></a>
+                  <a href="#"><img class="instagram2" src="/images/instagram.png"></a>
+                </div>
+                
+                
+                
+                
+                
+
+
+          </footer>
+
+        </main>
+            
+        
+
+
+
+    </div>
+        
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
